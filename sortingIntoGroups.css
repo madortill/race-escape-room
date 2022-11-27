@@ -220,7 +220,7 @@ html, body {
 .next-button-place {
     height: 20vmin;
     width: 17vmax;
-    background-image: url("../assets/images/continue.svg");
+    background-image: url("assets/images/continue.svg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
