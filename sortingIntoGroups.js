@@ -67,7 +67,7 @@ $(function() {
 // פונקציית הוספת אלמנטים
 function addElements() {   
     // שינוי הרקע לרגיל, הוספת כותרות
-    $(".container-all").css("background-image", "url('../assets/images/bgorganise.svg')");
+    $(".container-all").css("background-image", "url('assets/images/bgorganise.svg')");
     $(".sort1-place").slideToggle(1000);
     $(".sort2-place").slideToggle(1000);
     $(".titles").css("display", "flex");
@@ -208,7 +208,7 @@ function finished() {
     $(".transparent-div").remove();
     
     // שינוי רקע
-    $(".container-all").css("background-image", "url('../assets/images/bgorganisefaded.svg')");
+    $(".container-all").css("background-image", "url('assets/images/bgorganisefaded.svg')");
     
     // הצגת המסך על הדף
     $(".end-game").fadeIn();
